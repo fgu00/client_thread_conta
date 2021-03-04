@@ -36,9 +36,6 @@ public class ClientBase {
                 s = tastiera.nextLine();
                 System.out.println("frase inserita: " + s);
                 out.println(s);
-                String risposta = in.readLine();
-                String risposta2[]=risposta.split(":");  
-                System.out.println("risposta del server: " + risposta2[1]+" caratteri");
             }
 
             in.close();
